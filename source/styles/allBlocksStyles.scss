@@ -1,5 +1,6 @@
 /* Компоненты */
 @import '../vendor/UnCss';/* т.к. он сбрасывает все стили */
+@import '../JS-components/onePageScroll/onepage-scroll';
 
 /* Шрифты */
 
@@ -10,3 +11,4 @@
 @import 'mixins';
 @import 'colors';
 @import 'global';
+@import '../blocks/main-screen/main-screen';

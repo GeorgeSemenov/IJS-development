@@ -1,6 +1,3 @@
-https://georgesemenov.github.io/FSD_lesson2_UiKit/
-https://stackedit.io/app#
-
 # IJS site
 Данный сайт создан по заказу компании ИЖС.
 
