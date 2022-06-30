@@ -1,1 +1,12 @@
-.main-screen__title {}
+.main-screen__title {
+  font-family: 'Roboto_Flex' ,"Times" , serif;
+  font-style: normal;
+  font-weight: 750;
+  font-size: 4.8rem;
+  line-height: 4.8rem;
+  letter-spacing: -0.5px;
+  color: $main-screen__title--Color;
+  font-stretch: 151%;
+  font-variation-settings: 'GRAD' 0, 'slnt' 0, 'XTRA' 499, 'XOPQ' 96, 'YOPQ' 79, 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738;
+
+}

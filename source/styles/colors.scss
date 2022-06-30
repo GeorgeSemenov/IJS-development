@@ -2,49 +2,13 @@
 $transparent: transparent;
 $inherit: inherit;
 
-$gray-lightest: rgba(31,32,65,0.05);
-$gray-muchMorelightest: rgba(31,32,65,0.1);
-$gray-lighter: rgba(31,32,65,0.25);
-$gray: rgba(31,32,65,0.5);
-$gray-darker: rgba(31, 32, 65, 0.75);
-$gray-darkest: rgba(31,32,65,1);
-
-$purple: #BC9CFF;
-$velvet: #A4A0FC;
-$green: #6FCF97;
 $white: #fff;//Не удалять, используется в global.css
 $black: #000;//Не удалять, используется в global.css
-$navyBlue: #214472;// Тёмно синий
-$pink: #bc9cff;
 
-$dark: #1F2041;
-
-$gradient-green:linear-gradient(180deg,#6FCF97 0%, #66D2EA 100%);
-$gradient-purple: linear-gradient(180deg,#BC9CFF 0%, #8BA4F9 100%);
-$gradient-gray-blue: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
-$gradient-gray-blue-faded: linear-gradient(180deg, rgba(188,156,255,0.6) 0%, rgba(139,164,249,0.6) 100%);
-$gradient-gray-only:  linear-gradient($gray-lighter 100%, $gray-lighter 100%);
-
-//Внимание, для работы градиентных цветов для svg требуется подключать pug файл с этим
-//градиентом путь будет описан в комментарии ниже
-$svg-gradient-purple: url('#svg-purple-gradient');
-// include ../../components/svg-purple-gradient.pug
-$svg-gradient-purple_faded: url('#svg-purple-gradient_faded');
-// include ../../components/svg-purple-gradient_faded.pug
+$dark:  #090909;
 
 /* variables with sense */
 
 /* *********************************************************************** */
 
-$colorBlock__colorSquare_darkShade-100--BGColor: $gray-darkest;
-$colorBlock__colorSquare_darkShade-75--BGColor: $gray-darker;
-$colorBlock__colorSquare_darkShade-50--BGColor: $gray;
-$colorBlock__colorSquare_darkShade-25--BGColor: $gray-lighter;
-$colorBlock__colorSquare_darkShade-5--BGColor: $gray-lightest;
-$colorBlock__colorSquare_green--BGColor: $green;
-$colorBlock__colorSquare_purple--BGColor: $purple;
-$colorBlock__textWrapper_textDecoration--color: $gray-darkest;
-
-$tagBlockNameColor_gray--color: $gray-lighter;
-
-$text-field--Color: $dark;
+$main-screen__title--Color: $dark;

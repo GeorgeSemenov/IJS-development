@@ -1,2 +1,6 @@
+include ../../../img/svg/google-badge.pug
 mixin main-screen__gglPlay(modifier)
-  .main-screen__gglPlay&attributes(attributes)
+  if modifier["googlePlayLink"] == undefined
+    - modifier["googlePlayLink"] = "#!";
+  a.main-screen__gglPlay(href=modifier.googlePlayLink)&attributes(attributes)
+    +google-badge()

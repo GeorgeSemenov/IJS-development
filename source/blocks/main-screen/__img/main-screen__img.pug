@@ -1,2 +1,5 @@
 mixin main-screen__img(modifier)
-  .main-screen__img&attributes(attributes)
+  picture.main-screen__img&attributes(attributes)
+    source(type='image/webp' srcset=require('../../img/mobile-phone-sm.jpg') media="(max-width: 600px)")
+    source(type='image/webp' srcset=require('../../img/mobile-phone.jpg') media="(min-width: 601px)")
+    img(src=require('../../img/mobile-phone-sm.jpg') alt="mobile-phone")

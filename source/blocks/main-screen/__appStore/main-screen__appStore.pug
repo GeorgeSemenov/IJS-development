@@ -1,2 +1,6 @@
+include ../../../img/svg/appStore.pug
 mixin main-screen__appStore(modifier)
-  .main-screen__appStore&attributes(attributes)
+  if modifier["appStoreLink"] == undefined
+    - modifier["appStoreLink"] = "#!";
+  a.main-screen__appStore(href=modifier.appStoreLink)&attributes(attributes)
+    +appStore()

@@ -1,0 +1,4 @@
+mixin main-screen__label(modifier)
+  if modifier["label"] == undefined
+    - modifier["label"] = "empty__label";
+  p.main-screen__label&attributes(attributes)!=modifier.label

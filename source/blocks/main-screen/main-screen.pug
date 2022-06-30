@@ -1,3 +1,4 @@
+include __label/main-screen__label.pug
 include __container/main-screen__container.pug
 include __img/main-screen__img.pug
 include __img-container/main-screen__img-container.pug
@@ -10,6 +11,8 @@ include __text-container/main-screen__text-container.pug
 include __start-button/main-screen__start-button.pug
 include __proposal/main-screen__proposal.pug
 mixin main-screen(modifier)
+  if modifier == undefined
+    - modifier = {};
   section.main-screen&attributes(attributes)
     +main-screen__container(modifier)
     +main-screen__img-container(modifier)
