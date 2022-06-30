@@ -1,2 +1,14 @@
-.header {}
+.header {
+  position: fixed;
+  width: 100%;
+  right: 50%;
+  transform: translateX(50%);
+  padding-top: 52px;
+
+  @media (max-width: $md - 1px){
+    padding-top: 0px;
+    height: 37px;
+    background-color: $header-mobile--BGColor;
+  }
+}
 @import '__logo/header__logo';

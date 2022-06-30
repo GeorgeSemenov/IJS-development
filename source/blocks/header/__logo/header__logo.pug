@@ -2,3 +2,8 @@ mixin header__logo(modifier)
   if modifier["logoLink"] == undefined
     - modifier["logoLink"] = "#!";
   a.header__logo(href=modifier.logoLink)&attributes(attributes)
+    picture
+      source(type='image/webp' srcset=require('../../img/logo-mobile.png') media="(max-width: 766px)")
+      source(type='image/webp' srcset=require('../../img/logo.png') media="(min-width: 767px)")
+      img(src=require('../../img/logo.png') alt="logo")
+    

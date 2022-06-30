@@ -2,4 +2,12 @@
   position: absolute;
   top: 0;
   right: 50%;
+  background-color: $main-screen__label--BGColor;
+
+  font-size: 1.4rem;
+  line-height: 2rem;
+  color: $main-screen__label--Color;
+  font-stretch: 151%;
+  font-variation-settings: 'GRAD' 0, 'slnt' 0, 'XTRA' 499, 'XOPQ' 96, 'YOPQ' 79, 'YTLC' 514, 'YTUC' 712, 'YTAS' 750, 'YTDE' -203, 'YTFI' 738;
+  transform: translateX(50%) rotate(-15deg);
 }

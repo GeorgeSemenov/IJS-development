@@ -5,10 +5,16 @@ $inherit: inherit;
 $white: #fff;//Не удалять, используется в global.css
 $black: #000;//Не удалять, используется в global.css
 
+$blue:  #5337FF;
 $dark:  #090909;
+
+$orange: #FF6700;
 
 /* variables with sense */
 
 /* *********************************************************************** */
+$header-mobile--BGColor: $blue;
 
 $main-screen__title--Color: $dark;
+$main-screen__label--BGColor: $orange;
+$main-screen__label--Color: $white;

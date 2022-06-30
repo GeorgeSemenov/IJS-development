@@ -1,0 +1,6 @@
+mixin main-screen__link-down(modifier)
+  if modifier["linkDownHref"] == undefined
+    - modifier["linkDownHref"] = "#!";
+  if modifier["linkDownText"] == undefined
+    - modifier["linkDownText"] = "empty__linkDownText";
+  a.main-screen__link-down(href=modifier.linkDownHref)&attributes(attributes)!=modifier.linkDownText

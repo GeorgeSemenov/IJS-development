@@ -24,6 +24,10 @@
     width: $side;
     height: $side;
 }
+@mixin wihe($width: 25px,$height: 25px){
+    width: $width;
+    height: $height;
+}
 @mixin centeredX($transLeft: -50%, $left: 50%){
     left: $left;
     transform: translateX($transLeft);
