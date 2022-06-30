@@ -1,0 +1,4 @@
+mixin header__logo(modifier)
+  if modifier["logoLink"] == undefined
+    - modifier["logoLink"] = "#!";
+  a.header__logo(href=modifier.logoLink)&attributes(attributes)

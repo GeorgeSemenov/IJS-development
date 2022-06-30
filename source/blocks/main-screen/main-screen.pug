@@ -1,10 +1,16 @@
+include __container/main-screen__container.pug
+include __img/main-screen__img.pug
+include __img-container/main-screen__img-container.pug
+include __appStore/main-screen__appStore.pug
+include __gglPlay/main-screen__gglPlay.pug
+include __buttons/main-screen__buttons.pug
+include __description/main-screen__description.pug
+include __title/main-screen__title.pug
+include __text-container/main-screen__text-container.pug
+include __start-button/main-screen__start-button.pug
+include __proposal/main-screen__proposal.pug
 mixin main-screen(modifier)
-  div.containeronepagescroll
-    section.one#section-one
-      h2 Первая секция
-    section.two#section-two
-      h2 вторая секция
-    section.three#section-three
-      h2 Третье секция
-  //- article.main-screen&attributes(attributes)
-
+  section.main-screen&attributes(attributes)
+    +main-screen__container(modifier)
+    +main-screen__img-container(modifier)
+    //-Удали неиспользуемы include

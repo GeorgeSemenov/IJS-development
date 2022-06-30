@@ -1,6 +1,4 @@
-// import '../../node_modules/jquery/dist/jquery.min.js';
-// import $ from 'jquery';
-// var jQuery = require("jquery")
 import { createPopper } from '@popperjs/core';
-// import 'bootstrap';
-// var $ = require( "jquery" );
+import './onePageScroll/jquery-1.9.1.js';
+import './onePageScroll/jquery.onepage-scroll.js';
+let $ = window.jQuery;

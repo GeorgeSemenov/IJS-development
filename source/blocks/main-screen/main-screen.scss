@@ -1,16 +1,17 @@
-section{
-  display: block;
-  height: 100vh;
-}
-.one{
-  background-color: green;
-}
-.two{
-  background-color: yellow;
-}
-.three{
-  background-color: purple;
-}
 .main-screen {
-
+  //font-family: 'Roboto_Flex' ,"Times" , serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+@import '__proposal/main-screen__proposal';
+@import '__start-button/main-screen__start-button';
+@import '__text-container/main-screen__text-container';
+@import '__title/main-screen__title';
+@import '__description/main-screen__description';
+@import '__buttons/main-screen__buttons';
+@import '__gglPlay/main-screen__gglPlay';
+@import '__appStore/main-screen__appStore';
+@import '__img-container/main-screen__img-container';
+@import '__img/main-screen__img';
+@import '__container/main-screen__container';
