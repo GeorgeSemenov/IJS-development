@@ -5,6 +5,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: -12px;
+  @media (max-width: $md - 1px){
+    margin-top: 0px;
+  }
 }
 @import '__title/main-screen__title';
 @import '__buttons/main-screen__buttons';

@@ -13,4 +13,5 @@ window.jQuery(document).ready(function(){
     $(`.onepage-pagination>li>a>p`).remove();
     $(`.onepage-pagination>li:nth-child(${index})>a`).append(`<p>${Math.floor(index/10)}${index%10}</p>`);
   }
+
 });

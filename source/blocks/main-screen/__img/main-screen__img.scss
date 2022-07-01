@@ -1,1 +1,6 @@
-.main-screen__img {}
+.main-screen__img {
+  margin-left: 14%;
+  @media (max-width: $md - 1px){
+    margin-left: 0px;
+  }
+}
